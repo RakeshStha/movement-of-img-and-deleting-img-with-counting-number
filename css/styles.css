@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.384);
+}
+
+h1{
+    margin: 20px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    margin: 40px;
+    position: relative;
+    /* background-color: #218ac3; */
+    border: 2px solid black;
+    height: 550px;
+    width: 550px; 
+    
+    /* cursor: url('../img/bat.png'), auto; */
+    
+}
+#container{
+  
+    cursor: url("../img/bat.png") 2 2, pointer;
+}
+
+
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.buttons {
+    border: none;
+    border-radius: 20px;
+    background-color:  #218ac3;
+    height: 42px;
+    width: 40%;
+    font-weight: 700;
+}

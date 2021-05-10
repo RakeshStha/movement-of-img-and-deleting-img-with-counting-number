@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS animation</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<script src="js/script.js" defer></script>
+<body>
+    <h1>
+        Killing flies Game
+    </h1>
+    
+    <div class="horizontal">
+        
+        <div id="container" class="container">
+            <div id="inside-div">
+                <audio id="flies-sound">
+                    <source src="audio/slap.mp3" type="audio/mpeg">
+                </audio>
+                <!-- <audio id="four-flies-sound">
+                    <source src="audio/fourflies.mp3" type="audio/mpeg">
+                </audio> -->
+                
+            </div>
+        </div>
+        <div style="text-align: center; margin:60px; margin-top: 150px;">
+            <h2>Click button to add more fly.</h2><br>
+            <button class="buttons" onclick="createDiv()"><span style="font-size: 20px; font-weight: 600;">Add fly</span></button><br><br>
+            <h2>Click on the moving fly to kill</h2><br>
+        
+                <p id="para" class="para" style="font-size: 20px; color: red; font-weight: 600;">Total Fly Killed = 0</p><br>
+    
+            
+        </div>
+    </div>
+    
+ 
+    
+</body>
+</html>
