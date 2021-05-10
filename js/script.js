@@ -90,7 +90,7 @@ function Movement(xposition, yposition, X, Y, divs, index){
         
             count ++;
             
-            document.querySelector(".para").innerHTML = "Total Fly Killed = " + count;
+            document.querySelector(".para").innerHTML = "Total Flies Killed = " + count;
             document.querySelector(".para").style = "font-size: 20px; color: green; font-weight: 600;"
             document.getElementById("flies-sound").play();
 
